@@ -1,9 +1,14 @@
 import React, {Component} from 'react';
 
+import Layout from './components/Layout/Layout';
+import Home from './containers/Home/Home';
+
 class App extends Component {
   render () {
     return (
-      <p>Modal here soon</p>
+      <Layout>
+        <Home />
+      </Layout>
     );
   }
 }
